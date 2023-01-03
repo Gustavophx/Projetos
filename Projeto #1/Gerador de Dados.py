@@ -53,6 +53,7 @@ while True:
             with open('dados.txt', 'a') as arquivo:
                 for opcao in lista_opcao:
                     arquivo.write(f'{opcao}\n')
+                    lista_opcao = ['']
 
     else:
         print('Saindo do programa...')
